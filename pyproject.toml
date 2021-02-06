@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "vivino"
+version = "0.1.0"
+description = ""
+authors = ["kristiewirth <kristie.ann.wirth@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7.1"
+seaborn = "^0.11.1"
+pandas = "^1.2.1"
+requests = "^2.25.1"
+ruptures = "^1.1.2"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^20.8b1", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
